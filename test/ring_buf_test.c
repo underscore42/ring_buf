@@ -29,9 +29,9 @@ int ring_buf_test(uint8_t size, bool overwrite, uint8_t expected_result)
 	uint8_t *buffer = malloc(size*sizeof(uint8_t));
 
 	printf("\n-test-start----------------------------\n");
-	printf("\nTest: Ring Buffer Overwrite Test\n");
+	printf("Test: Ring Buffer Overwrite Test\n");
 	printf("    : Size        = %d\n",size);
-	printf("    : Overwire    = %d\n",overwrite);
+	printf("    : Overwrite    = %d\n",overwrite);
 	printf("-----------------------------------\n");
 
 	ring_obj rb = ring_buf_init(buffer, size, overwrite);

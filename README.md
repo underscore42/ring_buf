@@ -64,11 +64,11 @@ To example run:
 ./ring_buf
 
 Typical results:
--test-start----------------------------
 
+-test-start----------------------------
 Test: Ring Buffer Overwrite Test
     : Size        = 100
-    : Overwire    = 1
+    : Overwrite    = 1
 -----------------------------------
 Buffer initialized.
 
@@ -81,10 +81,9 @@ Reading back values: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 2
 -----------------------------end-test--
 
 -test-start----------------------------
-
 Test: Ring Buffer Overwrite Test
     : Size        = 100
-    : Overwire    = 0
+    : Overwrite    = 0
 -----------------------------------
 Buffer initialized.
 
@@ -103,3 +102,4 @@ Reading back values: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 
 *****************************************************
 Test: Ring buffer, overwrite enabled, SUCCESS!
 Test: Ring buffer, overwrite disabled, SUCCESS!
+*****************************************************
